@@ -17,9 +17,9 @@ let username = id("username"),
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  engine(username, 0, "Username cannot be blank");
-  engine(email, 1, "Email cannot be blank");
-  engine(password, 2, "Password cannot be blank");
+  engine(username, 0, "¡Te perdiste un lugar! No olvides agregar tu correo nombre de Usuario");
+  engine(email, 1, "¡Te perdiste un lugar! No olvides agregar tu correo electrónico.");
+  engine(password, 2, "¡Te perdiste un lugar! No olvides agregar Contraseña");
 });
 
 // engine function which will do all the works

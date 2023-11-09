@@ -1,5 +1,5 @@
 /**
-* ! changing default styles of brower
+* default styles of brower
 **/
 
 * {
@@ -25,14 +25,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #f2796e;
+  background-color: #6CBACF;
+  /*background-color: #f2796e;*/
   width: 55%;
   min-height: 100vh;
   padding: 10px 20px;
 }
 
 .image {
-  background-image: url("https://svgshare.com/i/_gZ.svg' title='illustration");
+  background-image: url("https://media0.giphy.com/media/26BRMNZa0mmBNUaaY/giphy.gif?cid=ecf05e47sk02ttvf31xkmppd9b22tdf8zi56nz37bsscqqlj&ep=v1_gifs_related&rid=giphy.gif&ct=g");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -87,7 +88,7 @@ form div {
 }
 
 input:focus {
-  border: 2px solid #f2796e;
+  border: 2px solid #ef70a1;
 }
 
 /**
@@ -130,7 +131,7 @@ input:focus {
 }
 
 span {
-  color: #f2796e;
+  color: #ef70a1;
   cursor: pointer;
 }
 
@@ -171,8 +172,8 @@ button {
   margin-top: 15px;
   width: 100%;
   height: 45px;
-  background-color: #f2796e;
-  border: 2px solid #f2796e;
+  background-color: #ef70a1;
+  border: 2px solid #ef70a1;
   border-radius: 8px;
   color: #fff;
   font-size: 20px;
